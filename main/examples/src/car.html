@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 77%;
+        
+      }
+      .data {
+        padding-left: 20px;
+      }
+      .data h3 {
+        padding-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="data">
+      <select
+        id="select"
+        style="
+          width: 300px;
+          height: 300px;
+          font-size: 2em;
+          margin: 0px 6px;
+          text-align: center;
+        "
+      >
+        <option>Choose the Option</option>
+        <option value="dev1">Dev1</option>
+        <option value="dev2">Dev2</option>
+        <option value="dev3">Dev3</option>
+        <option value="dev4">Dev4</option>
+        <option value="dev5">Dev5</option>
+        <option value="dev6">Dev6</option>
+        <option value="dev7">Dev7</option>
+        <option value="dev8">Dev8</option>
+        <option value="dev9">Dev9</option>
+        <option value="dev10">Dev10</option>
+      </select>
+      <div>
+        <h3>
+          Lat: <em><span> </span></em>
+        </h3>
+        <h3>
+          Lng: <em><span> </span></em>
+        </h3>
+        <h3>
+          Alt: <em><span> </span></em>
+        </h3>
+        <h3>
+          Activity: <em><span> </span></em>
+        </h3>
+        <h3>
+          Confidence: <em><span> </span></em>
+        </h3>
+      </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="../jsm/old-browser-handler.js"></script>
+    <script type="module" src="car.js"></script>
+  </body>
+</html>
