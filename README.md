@@ -1,7 +1,7 @@
 ## Google HackNU 2022
 
 <div>
-  <img style="width: 100%" src="./examples/assets/car.gif" />
+  <img style="width: 100%" src="examples/assets/Car.gif" />
 </div>
 
 
