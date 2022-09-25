@@ -19,10 +19,17 @@ You can install this module via npm:
 npm install 
 ```
 
-
+## Start
 Once you have that file in place, you can run
 
 ```sh
 npm start
 ```
 
+# Contributers
+
+## Aip Alisher - KBTU Student
+## Abylai Aitbanov - KBTU Student
+## Yerdaulet Seidizhappar - NU Student
+## Sabina Kubiyeva - K.Zhubanov Aktobe Regional University
+## Abylkhan Khambarov - K.Zhubanov Aktobe Regional University
