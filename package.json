@@ -9,12 +9,7 @@
     "threejs",
     "webgl"
   ],
-  "author": "ubilabs GmbH <ham@ubilabs.com>",
-  "contributors": [
-    "Martin Schuhfuss <schuhfuss@ubilabs.com>",
-    "Andreas Kofler <kofler@ubilabs.com>",
-    "Martin Kleppe <kleppe@ubilabs.com>"
-  ],
+  "author": "Aitbanov Abylai Aip Alisher",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ubilabs/threejs-overlay-view.git"
